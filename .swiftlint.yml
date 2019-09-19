@@ -1,0 +1,12 @@
+disabled_rules: # rule identifiers to exclude from running
+- trailing_whitespace
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+- Carthage
+- Pods
+- R.generated.swift
+disabled_rules:
+- cyclomatic_complexity
+- force_try
+- weak_delegate
+- trailing_whitespace
+- function_parameter_count

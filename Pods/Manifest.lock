@@ -1,0 +1,113 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Kingfisher (5.7.1)
+  - LocalizableLib (0.1.8)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya-ObjectMapper/Core (2.8):
+    - Moya (~> 12.0)
+    - ObjectMapper (~> 3.4)
+  - Moya-ObjectMapper/RxSwift (2.8):
+    - Moya-ObjectMapper/Core
+    - Moya/RxSwift
+    - RxSwift (~> 4)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.5.1)
+  - PullToRefreshKit (0.8.8)
+  - ReachabilitySwift (4.3.1)
+  - Realm (3.17.3):
+    - Realm/Headers (= 3.17.3)
+  - Realm/Headers (3.17.3)
+  - RealmSwift (3.17.3):
+    - Realm (= 3.17.3)
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxFlow (2.2.0):
+    - RxCocoa (>= 4.5.0)
+    - RxSwift (>= 4.5.0)
+  - RxSwift (4.5.0)
+  - SwiftGen (6.1.0)
+  - SwiftLint (0.34.0)
+  - TransitionButton (0.5.2)
+  - TweeTextField (1.6.0)
+  - Windless (0.1.5)
+
+DEPENDENCIES:
+  - Kingfisher
+  - LocalizableLib
+  - Moya-ObjectMapper/RxSwift
+  - Moya/RxSwift
+  - ObjectMapper (~> 3.4)
+  - PullToRefreshKit
+  - ReachabilitySwift
+  - RealmSwift
+  - RxCocoa
+  - RxFlow
+  - RxSwift
+  - SwiftGen (~> 6.0)
+  - SwiftLint
+  - TransitionButton
+  - TweeTextField (from `https://github.com/oleghnidets/TweeTextField.git`, branch `master`)
+  - Windless
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Kingfisher
+    - LocalizableLib
+    - Moya
+    - Moya-ObjectMapper
+    - ObjectMapper
+    - PullToRefreshKit
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - Result
+    - RxCocoa
+    - RxFlow
+    - RxSwift
+    - SwiftGen
+    - SwiftLint
+    - TransitionButton
+    - Windless
+
+EXTERNAL SOURCES:
+  TweeTextField:
+    :branch: master
+    :git: https://github.com/oleghnidets/TweeTextField.git
+
+CHECKOUT OPTIONS:
+  TweeTextField:
+    :commit: afe719b8cb95a51ea51d55218b3784d394252a53
+    :git: https://github.com/oleghnidets/TweeTextField.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
+  LocalizableLib: 3db743889ac8c69a5916be6147b4b9913476819d
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Moya-ObjectMapper: c514b5eafcfd5e260f85f7a5bf66895a217e2b37
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  PullToRefreshKit: 7cc53e720e69f135cffa1a57784dfb534f0222ab
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
+  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxFlow: f8cdfc0be3c837464fad1fcd28187fd414bcc716
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+  SwiftLint: 79d48a17c6565dc286c37efb8322c7b450f95c67
+  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
+  TweeTextField: 2bfb6c48fdbf6eb8038260430244c9f6ebb47bce
+  Windless: c6b7d63ac3a0c7e6b241e316650d4605abf71894
+
+PODFILE CHECKSUM: 5e66551cb16ddb4d9243a72fea059be887427c59
+
+COCOAPODS: 1.8.0.beta.2
